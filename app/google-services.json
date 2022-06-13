@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "44613939072",
+    "project_id": "dairaapp-39074",
+    "storage_bucket": "dairaapp-39074.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44613939072:android:450f094e6f32d25d785b65",
+        "android_client_info": {
+          "package_name": "com.example.dairaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44613939072-qltbvigk2mc2760qe741fldlch4l414m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1blfmq13YQz05tZhtmsOlFd5qIow5Ry8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44613939072-qltbvigk2mc2760qe741fldlch4l414m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">DairaApp</string>
+    <string name="daira_app">Daira App</string>
+    <string name="welcome">Welcome!</string>
+    <string name="todo">TODO</string>
+    <string name="we_re_glad_you_re_here_let_s_get_started">We\'re glad you\'re here, let\'s get started.</string>
+    <string name="alone_we_can_do_so_little_together_we_can_do_so_much">Alone we can do so little, together we can do so much!</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="hakuna_matata">Hakuna Matata!</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="not_a_member">Not a member?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="pass_hidden">***********</string>
+    <string name="email">Email</string>
+    <string name="already_have_an_account">Already Have an Account?</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+</resources>
