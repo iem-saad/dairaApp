@@ -10,6 +10,7 @@
         <entry key="..\:/DairaApp/app/src/main/res/drawable/round_btn.xml" value="0.2815" />
         <entry key="..\:/DairaApp/app/src/main/res/drawable/text_view_border.xml" value="0.2815" />
         <entry key="..\:/DairaApp/app/src/main/res/drawable/transparent_capsule_btn.xml" value="0.2815" />
+        <entry key="..\:/DairaApp/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.41510416666666666" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_login.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_login_main.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
@@ -17,6 +18,7 @@
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_on_boarding_1.xml" value="0.35648148148148145" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_sign_up.xml" value="0.33" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/DairaApp/app/src/main/res/menu/main_drawer.xml" value="0.42916666666666664" />
       </map>
     </option>
   </component>
