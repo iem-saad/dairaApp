@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DairaApp">
         <activity
+            android:name=".ParticipantPanel.ParticipantDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".OcPanel.OcDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MentorPanel.MentorDashboard"
+            android:exported="false" />
+        <activity
             android:name=".AdminPanel.AdminDashboard"
             android:exported="true">
             <intent-filter>
