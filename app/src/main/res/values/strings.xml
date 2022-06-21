@@ -24,4 +24,14 @@
     <string name="already_have_an_account">Already Have an Account?</string>
     <string name="password">Password</string>
     <string name="name">Name</string>
+    <string name="todoasd">TODO</string>
+    <string name="event_description">Event Description</string>
+    <string name="save_data">Save Data</string>
+    <string name="back">Back</string>
+    <string name="textviewasdads">TextView</string>
+    <string name="textvieww2">TextView</string>
+    <string name="todo343">TODO</string>
+    <string name="admin_events">Admin/Events</string>
+    <string name="update_event_panel">Update Event Panel</string>
+    <string name="update">Update</string>
 </resources>
