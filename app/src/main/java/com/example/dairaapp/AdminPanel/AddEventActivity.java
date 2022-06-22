@@ -54,4 +54,8 @@ public class AddEventActivity extends AppCompatActivity {
                         });
 
     }
+
+    public void moveBack(View view) {
+        finish();
+    }
 }

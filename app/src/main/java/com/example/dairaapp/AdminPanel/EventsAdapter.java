@@ -45,6 +45,9 @@ public class EventsAdapter extends FirebaseRecyclerAdapter<Event, EventsAdapter.
         Log.d("TAG", "NAME IS "+ model.getName());
         Log.d("TAG", "DESC IS "+ model.getDescription());
         holder.desc.setText(model.getDescription());
+        if(model.getMentor_id().length() > 0 ){
+            holder.mentor.setText(model.getMentor_id());
+        }
 
         holder.edit.setOnClickListener((view)-> {
             final DialogPlus dialogPlus = DialogPlus.newDialog(holder.name.getContext())
@@ -109,7 +112,7 @@ public class EventsAdapter extends FirebaseRecyclerAdapter<Event, EventsAdapter.
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView edit, delete;
-        TextView name, desc;
+        TextView name, desc, mentor;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.eventnameshow);
@@ -117,6 +120,7 @@ public class EventsAdapter extends FirebaseRecyclerAdapter<Event, EventsAdapter.
 
             edit = itemView.findViewById(R.id.editeventicon);
             delete = itemView.findViewById(R.id.deleventicon);
+            mentor = itemView.findViewById(R.id.eventmentorshow);
         }
     }
 }
