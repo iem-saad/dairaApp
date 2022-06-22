@@ -34,4 +34,5 @@
     <string name="admin_events">Admin/Events</string>
     <string name="update_event_panel">Update Event Panel</string>
     <string name="update">Update</string>
+    <string name="mentors">Mentors</string>
 </resources>
