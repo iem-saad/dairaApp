@@ -40,4 +40,5 @@
     <string name="click_below_to_select_a_mentor">Click Below to Select a Mentor</string>
     <string name="assign">Assign</string>
     <string name="mentor_not_assigned">Mentor Not Assigned</string>
+    <string name="participants">Participants</string>
 </resources>

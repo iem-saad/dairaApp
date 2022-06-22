@@ -12,10 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.dairaapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
 
@@ -76,8 +79,22 @@ public class SignUpActivity extends AppCompatActivity {
                         Map<String,Object> userInfo = new HashMap<>();
                         // add remaining attributes here.
                         userInfo.put("name", name);
-                        userInfo.put("role", 3); //3 means participant.
+                        userInfo.put("email", email);
+                        userInfo.put("role", "3"); //3 means participant.
                         df.set(userInfo);
+                        FirebaseDatabase.getInstance().getReference().child("participants").push().setValue(userInfo).
+                                addOnSuccessListener(new OnSuccessListener<Void>() {
+                                    @Override
+                                    public void onSuccess(Void unused) {
+                                        Toast.makeText(SignUpActivity.this, "Saved Participant!", Toast.LENGTH_SHORT).show();
+
+                                    }
+                                }).addOnFailureListener(new OnFailureListener() {
+                            @Override
+                            public void onFailure(@NonNull Exception e) {
+                                Toast.makeText(SignUpActivity.this, "Error in Adding Participant!", Toast.LENGTH_SHORT).show();
+                            }
+                        });
                         sendUserToNextActicity();
                         Toast.makeText(SignUpActivity.this, "Congratulations! Registration Completed!", Toast.LENGTH_SHORT).show();
                     }

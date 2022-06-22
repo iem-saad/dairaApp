@@ -25,7 +25,7 @@ public class EventsMainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_events_main);
         add_rec = findViewById(R.id.event_add_float_btn);
-        recyclerView = findViewById(R.id.eventsrecycler);
+        recyclerView = findViewById(R.id.participantsrecycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         FirebaseRecyclerOptions<Event> options = new FirebaseRecyclerOptions.Builder<Event>()
