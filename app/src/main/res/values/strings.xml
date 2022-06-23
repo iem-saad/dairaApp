@@ -41,4 +41,6 @@
     <string name="assign">Assign</string>
     <string name="mentor_not_assigned">Mentor Not Assigned</string>
     <string name="participants">Participants</string>
+    <string name="management_login">Management Login</string>
+    <string name="username">username</string>
 </resources>

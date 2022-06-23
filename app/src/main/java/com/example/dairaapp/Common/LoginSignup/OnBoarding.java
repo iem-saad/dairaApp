@@ -25,4 +25,7 @@ public class OnBoarding extends AppCompatActivity {
         Intent intent = new Intent(this, SignUpActivity.class);
         startActivity(intent);
     }
+
+    public void login_others(View view) {
+    }
 }

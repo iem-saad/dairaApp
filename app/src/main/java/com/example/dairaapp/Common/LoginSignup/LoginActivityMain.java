@@ -10,9 +10,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.dairaapp.AdminPanel.AdminDashboard;
-import com.example.dairaapp.MentorPanel.MentorDashboard;
-import com.example.dairaapp.OcPanel.OcDashboard;
 import com.example.dairaapp.ParticipantPanel.ParticipantDashboard;
 import com.example.dairaapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -88,20 +85,20 @@ public class LoginActivityMain extends AppCompatActivity {
     }
 
     private void sendUserToNextActicity(String role) {
-        Intent intent;
-        if (role=="0"){
-            intent = new Intent(LoginActivityMain.this, AdminDashboard.class);
-        }
-        else if(role=="1"){
-            intent = new Intent(LoginActivityMain.this, MentorDashboard.class);
-        }
-        else if (role =="2"){
-            intent = new Intent(LoginActivityMain.this, OcDashboard.class);
-        }
-        else{
-            intent = new Intent(LoginActivityMain.this, ParticipantDashboard.class);
-        }
-//        Intent intent = new Intent(LoginActivityMain.this, SignUpActivity.class);
+//        Intent intent;
+//        if (role=="0"){
+//            intent = new Intent(LoginActivityMain.this, AdminDashboard.class);
+//        }
+//        else if(role=="1"){
+//            intent = new Intent(LoginActivityMain.this, MentorDashboard.class);
+//        }
+//        else if (role =="2"){
+//            intent = new Intent(LoginActivityMain.this, OcDashboard.class);
+//        }
+//        else{
+//        }
+        Intent intent = new Intent(LoginActivityMain.this, SignUpActivity.class);
+        intent = new Intent(LoginActivityMain.this, ParticipantDashboard.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
 //        finish();
