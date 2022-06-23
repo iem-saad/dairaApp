@@ -1,6 +1,7 @@
 package com.example.dairaapp.AdminPanel;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
@@ -10,10 +11,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.example.dairaapp.CurrentUser;
 import com.example.dairaapp.R;
 import com.google.android.material.navigation.NavigationView;
-
-//import android.widget.Toolbar;
 
 public class AdminDashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -40,6 +40,8 @@ public class AdminDashboard extends AppCompatActivity implements NavigationView.
         drawerLayout.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+        CurrentUser currentUser = CurrentUser.getInstance();
+        Log.d("TAG", "AGYAAAA USER JEEEE0 " + currentUser.getUserName(this));
     }
 
 
