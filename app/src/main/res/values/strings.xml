@@ -34,19 +34,4 @@
     <string name="admin_events">Admin/Events</string>
     <string name="update_event_panel">Update Event Panel</string>
     <string name="update">Update</string>
-    <string name="mentors">Mentors</string>
-    <string name="assign_mentors_to_events">Assign Mentors to Events</string>
-    <string name="click_below_to_select_an_event">Click Below to Select an Event</string>
-    <string name="click_below_to_select_a_mentor">Click Below to Select a Mentor</string>
-    <string name="assign">Assign</string>
-    <string name="mentor_not_assigned">Mentor Not Assigned</string>
-    <string name="participants">Participants</string>
-    <string name="management_login">Management Login</string>
-    <string name="username">username</string>
-    <string name="mentor_creation">Mentor Creation</string>
-    <string name="oc_creation">OC Creation</string>
-    <string name="organizing_committee">Organizing Committee</string>
-    <string name="sub_event_name">Sub Event Name</string>
-    <string name="sub_event_description">Sub Event Description</string>
-    <string name="image_url">Image URL</string>
 </resources>

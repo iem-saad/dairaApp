@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_subeventreg"
+            android:title="Subevents Registeration"
+            android:icon="@drawable/eventreg"
+
+            />
+        <item
+            android:id="@+id/nav_assignsubevents"
+            android:title="Assign subevents"
+            android:icon="@drawable/mentorregisteration"
+            />
+        <item
+            android:id="@+id/nav_eventreg"
+            android:title="View Event Registeration"
+            android:icon="@drawable/managereg"
+            />
+        <item
+            android:id="@+id/nav_viewreg"
+            android:title="@string/view_registeration"
+            android:icon="@drawable/viewreg"
+            />
+    </group>
+
+    <item android:title="@string/profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    android:icon="@drawable/login"
+                    />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/profile"
+                    />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/loggout"
+                    />
+            </group>
+        </menu>
+
+
+
+    </item>
+
+</menu>

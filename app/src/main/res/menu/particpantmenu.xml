@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_seevenue"
+            android:title="Check Venue"
+            android:icon="@drawable/venue"
+
+            />
+        <item
+            android:id="@+id/nav_seescore"
+            android:title="Check Score"
+            android:icon="@drawable/scoreboard"
+            />
+        <item
+            android:id="@+id/nav_checknews"
+            android:title="Event News"
+            android:icon="@drawable/news"
+            />
+
+    </group>
+
+    <item android:title="@string/profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    android:icon="@drawable/login"
+                    />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+                    android:icon="@drawable/profile"
+                    />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:icon="@drawable/loggout"
+                    />
+            </group>
+        </menu>
+
+
+
+    </item>
+
+</menu>
