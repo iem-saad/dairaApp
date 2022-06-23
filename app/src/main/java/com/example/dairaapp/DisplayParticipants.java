@@ -19,7 +19,7 @@ public class DisplayParticipants extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_participants);
-        recyclerView = findViewById(R.id.participantsrecycler);
+        recyclerView = findViewById(R.id.subeventsrecycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         FirebaseRecyclerOptions<Participant> options = new FirebaseRecyclerOptions.Builder<Participant>()

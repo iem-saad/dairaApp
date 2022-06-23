@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminPanel.RegisterMentorMainActivity">
+    tools:context=".MentorPanel.RegisterOCMainActivity">
+
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="251dp"
         android:layout_height="37dp"
         android:layout_marginTop="124dp"
-        android:text="@string/mentor_creation"
+        android:text="@string/oc_creation"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="25sp"
@@ -22,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/addmentoremail"
+        android:id="@+id/addocemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -37,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/addmentorpass"
+        android:id="@+id/addocpass"
         android:layout_width="210dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -49,10 +50,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addmentoremail" />
+        app:layout_constraintTop_toBottomOf="@+id/addocemail" />
 
     <EditText
-        android:id="@+id/addmentorname"
+        android:id="@+id/addocname"
         android:layout_width="207dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -64,7 +65,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addmentorpass" />
+        app:layout_constraintTop_toBottomOf="@+id/addocpass" />
 
     <Button
         android:id="@+id/button3"
@@ -72,11 +73,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:backgroundTint="#FAAF28"
-        android:onClick="add_mentor"
+        android:onClick="add_oc"
         android:text="@string/save_data"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/addmentorname"
+        app:layout_constraintTop_toBottomOf="@+id/addocname"
         tools:ignore="TextContrastCheck" />
 
     <Button

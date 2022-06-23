@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdminPanel.EventsMainActivity">
+    tools:context=".MentorPanel.SubEventMainActivity">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="389dp"
         android:layout_height="42dp"
-        android:text="@string/admin_events"
+        android:text="Sub-Events"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -42,6 +42,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.946"
         app:srcCompat="@drawable/add_circle_float"
-        android:onClick="render_add_activity"
+        android:onClick="render_add_subevent_activity"
         tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

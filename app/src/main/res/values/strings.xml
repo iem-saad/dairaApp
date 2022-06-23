@@ -43,4 +43,10 @@
     <string name="participants">Participants</string>
     <string name="management_login">Management Login</string>
     <string name="username">username</string>
+    <string name="mentor_creation">Mentor Creation</string>
+    <string name="oc_creation">OC Creation</string>
+    <string name="organizing_committee">Organizing Committee</string>
+    <string name="sub_event_name">Sub Event Name</string>
+    <string name="sub_event_description">Sub Event Description</string>
+    <string name="image_url">Image URL</string>
 </resources>
