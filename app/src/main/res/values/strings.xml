@@ -65,4 +65,5 @@
     <string name="news_will_be_added_here">News will be added here</string>
     <string name="click_below_to_select_sub_event">Click Below to Select Sub Event</string>
     <string name="added_by_oc">Added by OC</string>
+    <string name="event_venues"><![CDATA[Event & Venues]]></string>
 </resources>

@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DairaApp">
         <activity
+            android:name=".OcPanel.EventVenuesMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".OcPanel.AllocateSbEventVenueMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".OcPanel.NewsMainActivity"
             android:exported="true">
             <intent-filter>

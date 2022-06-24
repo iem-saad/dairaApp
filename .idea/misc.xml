@@ -15,11 +15,13 @@
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_add_sub_event_main.xml" value="0.41510416666666666" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_add_venue_main.xml" value="0.20416666666666666" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.41510416666666666" />
+        <entry key="..\:/DairaApp/app/src/main/res/layout/activity_allocate_sb_event_venue_main.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_assign_event_main.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_assign_ocsubevent_main.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_display_mentors_main.xml" value="0.2296875" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_display_ocmain.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_display_participants.xml" value="0.42916666666666664" />
+        <entry key="..\:/DairaApp/app/src/main/res/layout/activity_event_venues_main.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_events_main.xml" value="0.22" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_login.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_login_main.xml" value="0.42916666666666664" />
@@ -37,6 +39,7 @@
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_venues_main.xml" value="0.12916666666666668" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/event_dialog.xml" value="0.23020833333333332" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/events_recycler_row.xml" value="0.23020833333333332" />
+        <entry key="..\:/DairaApp/app/src/main/res/layout/evvenue_recycler_row.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/mentor_row.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/mentorheader.xml" value="0.23020833333333332" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/news_recycler_row.xml" value="0.2390625" />
