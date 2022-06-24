@@ -11,6 +11,7 @@
         <entry key="..\:/DairaApp/app/src/main/res/drawable/text_view_border.xml" value="0.2815" />
         <entry key="..\:/DairaApp/app/src/main/res/drawable/transparent_capsule_btn.xml" value="0.2815" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_add_event.xml" value="0.42916666666666664" />
+        <entry key="..\:/DairaApp/app/src/main/res/layout/activity_add_news_main.xml" value="0.2390625" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_add_sub_event_main.xml" value="0.41510416666666666" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_add_venue_main.xml" value="0.20416666666666666" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.41510416666666666" />
@@ -24,6 +25,7 @@
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_login_main.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_management_login_main.xml" value="0.42916666666666664" />
+        <entry key="..\:/DairaApp/app/src/main/res/layout/activity_news_main.xml" value="0.2390625" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_on_boarding.xml" value="0.35648148148148145" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_on_boarding_1.xml" value="0.35648148148148145" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/activity_register_mentor_main.xml" value="0.33" />
@@ -37,6 +39,7 @@
         <entry key="..\:/DairaApp/app/src/main/res/layout/events_recycler_row.xml" value="0.23020833333333332" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/mentor_row.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/mentorheader.xml" value="0.23020833333333332" />
+        <entry key="..\:/DairaApp/app/src/main/res/layout/news_recycler_row.xml" value="0.2390625" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/participant_row.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/sboc_recycler_row.xml" value="0.42916666666666664" />
         <entry key="..\:/DairaApp/app/src/main/res/layout/subevent_dialog.xml" value="0.32083333333333336" />

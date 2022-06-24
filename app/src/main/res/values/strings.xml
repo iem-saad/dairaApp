@@ -62,4 +62,7 @@
     <string name="assign_event">Assign Event</string>
     <string name="show_mentors">Show Mentors</string>
     <string name="venues">Venues</string>
+    <string name="news_will_be_added_here">News will be added here</string>
+    <string name="click_below_to_select_sub_event">Click Below to Select Sub Event</string>
+    <string name="added_by_oc">Added by OC</string>
 </resources>
