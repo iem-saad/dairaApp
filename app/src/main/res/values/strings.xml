@@ -60,4 +60,6 @@
     <string name="profilee">Profile</string>
     <string name="profile">Profile</string>
     <string name="assign_event">Assign Event</string>
+    <string name="show_mentors">Show Mentors</string>
+    <string name="venues">Venues</string>
 </resources>

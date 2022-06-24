@@ -1,5 +1,6 @@
 package com.example.dairaapp.AdminPanel;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -58,12 +59,20 @@ public class AdminDashboard extends AppCompatActivity implements NavigationView.
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.nav_eventreg:
+                Intent intent = new Intent(this, EventsMainActivity.class);
+                startActivity(intent);
                 break;
             case R.id.nav_assignevent:
+                Intent intent1 = new Intent(this, AssignEventMainActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.nav_mentorreg:
+                Intent intent2 = new Intent(this, RegisterMentorMainActivity.class);
+                startActivity(intent2);
                 break;
             case R.id.nav_viewreg:
+                Intent intent3 = new Intent(this, DisplayMentorsMainActivity.class);
+                startActivity(intent3);
                 break;
             case R.id.nav_login:
                 break;

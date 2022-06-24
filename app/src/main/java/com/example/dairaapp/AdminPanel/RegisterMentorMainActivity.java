@@ -1,6 +1,7 @@
 package com.example.dairaapp.AdminPanel;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -89,5 +90,10 @@ public class RegisterMentorMainActivity extends AppCompatActivity {
                 }
             });
         }
+    }
+
+    public void show_mentors(View view) {
+        Intent intent = new Intent(this, DisplayMentorsMainActivity.class);
+        startActivity(intent);
     }
 }
