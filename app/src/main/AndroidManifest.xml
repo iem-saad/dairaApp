@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DairaApp">
         <activity
+            android:name=".ParticipantPanel.ShowPNewsMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MentorPanel.DIsplayMRegistrationsMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".ParticipantPanel.ShowRegistrationMainActivity"
             android:exported="true">
             <intent-filter>
