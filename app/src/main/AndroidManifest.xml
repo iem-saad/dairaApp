@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DairaApp">
         <activity
+            android:name=".ParticipantPanel.ShowRegistrationMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ParticipantPanel.RegisterEventActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".OcPanel.EventVenuesMainActivity"
             android:exported="true">
             <intent-filter>
@@ -215,7 +233,13 @@
             android:exported="false" />
         <activity
             android:name=".Common.LoginSignup.LoginActivityMain"
-            android:exported="false" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".ui.login.LoginActivity"
             android:exported="false"

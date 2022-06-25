@@ -10,7 +10,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.dairaapp.ParticipantPanel.ParticipantDashboard;
+import com.example.dairaapp.ParticipantPanel.RegisterEventActivity;
 import com.example.dairaapp.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -98,7 +98,8 @@ public class LoginActivityMain extends AppCompatActivity {
 //        else{
 //        }
         Intent intent = new Intent(LoginActivityMain.this, SignUpActivity.class);
-        intent = new Intent(LoginActivityMain.this, ParticipantDashboard.class);
+//        intent = new Intent(LoginActivityMain.this, ParticipantDashboard.class);
+        intent = new Intent(LoginActivityMain.this, RegisterEventActivity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
 //        finish();

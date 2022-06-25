@@ -22,7 +22,6 @@
     <string name="pass_hidden">***********</string>
     <string name="email">Email</string>
     <string name="already_have_an_account">Already Have an Account?</string>
-    <string name="password">Password</string>
     <string name="name">Name</string>
     <string name="todoasd">TODO</string>
     <string name="event_description">Event Description</string>
@@ -66,4 +65,12 @@
     <string name="click_below_to_select_sub_event">Click Below to Select Sub Event</string>
     <string name="added_by_oc">Added by OC</string>
     <string name="event_venues"><![CDATA[Event & Venues]]></string>
+    <string name="email_email_com">email@email.cpo</string>
+    <string name="password">Password</string>
+    <string name="assign_location_to_sub_event">Assign Location to Sub-Event</string>
+    <string name="assign_location">Assign Location</string>
+    <string name="click_below_to_select_location">Click Below to Select Location</string>
+    <string name="register_event">Register Event</string>
+    <string name="register">Register</string>
+    <string name="your_registrations">Your Registrations</string>
 </resources>

@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OcPanel.AllocateSbEventVenueMainActivity">
+    tools:context=".ParticipantPanel.RegisterEventActivity">
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="389dp"
         android:layout_height="42dp"
         android:layout_marginTop="60dp"
-        android:text="@string/assign_location_to_sub_event"
+        android:text="@string/register_event"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
@@ -21,24 +21,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="406dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="3dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="2dp"
-        android:text="@string/click_below_to_select_location"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sbevvspinner" />
-
     <Spinner
-        android:id="@+id/sbevvspinner"
+        android:id="@+id/regeventspinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="140dp"
 
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,25 +40,13 @@
         android:layout_width="406dp"
         android:layout_height="28dp"
         android:layout_marginStart="3dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="112dp"
         android:layout_marginEnd="2dp"
         android:text="@string/click_below_to_select_sub_event"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
-
-    <Spinner
-        android:id="@+id/venuespinner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="132dp"
-        android:minHeight="48dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/button6"
@@ -81,12 +56,12 @@
         android:layout_marginEnd="159dp"
         android:layout_marginBottom="277dp"
         android:backgroundTint="#FAAF28"
-        android:onClick="assign_location"
-        android:text="@string/assign_location"
+        android:onClick="regester_event_"
+        android:text="@string/register"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/venuespinner"
+        app:layout_constraintTop_toBottomOf="@+id/regeventspinner"
         app:layout_constraintVertical_bias="0.931" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
