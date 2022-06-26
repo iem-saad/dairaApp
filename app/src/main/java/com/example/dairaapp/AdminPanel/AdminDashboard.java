@@ -14,6 +14,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.example.dairaapp.CurrentUser;
 import com.example.dairaapp.R;
+import com.example.dairaapp.SplashActivity;
 import com.google.android.material.navigation.NavigationView;
 
 public class AdminDashboard extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -78,6 +79,9 @@ public class AdminDashboard extends AppCompatActivity implements NavigationView.
             case R.id.nav_profile:
                 break;
             case R.id.nav_logout:
+                Intent i = new Intent(AdminDashboard.this, SplashActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(i);
                 break;
         }
         return true;

@@ -14,13 +14,23 @@
             />
         <item
             android:id="@+id/nav_eventreg"
-            android:title="View Event Registeration"
+            android:title="Register OC"
             android:icon="@drawable/managereg"
             />
         <item
             android:id="@+id/nav_viewreg"
             android:title="@string/view_registeration"
             android:icon="@drawable/viewreg"
+            />
+        <item
+            android:id="@+id/nav_location"
+            android:title="Manage Venues"
+            android:icon="@drawable/nav_location"
+            />
+        <item
+            android:id="@+id/nav_sendupdate"
+            android:title="New message"
+            android:icon="@drawable/newmsg"
             />
     </group>
 

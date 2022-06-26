@@ -70,7 +70,7 @@ public class ManagementLoginMainActivity extends AppCompatActivity {
                         Log.d("TAG", "SAVED PASS "+ saved_pass);
                         Log.d("TAG", "PASS "+ password);
                         // issue in comparison....
-                        if (true||saved_pass == password){
+                        if (saved_pass.equals(password)){
                             Log.d("TAG", "SNAPSHOT INSIDE 3");
                             SharedPreferences.Editor editor=  sharedPreferences.edit();
                             editor.clear();
@@ -92,18 +92,44 @@ public class ManagementLoginMainActivity extends AppCompatActivity {
 
                 }
             });
-            FirebaseDatabase.getInstance().getReference().child("admins").addListenerForSingleValueEvent(new ValueEventListener() {
+            FirebaseDatabase.getInstance().getReference().child("admin").addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(@NonNull DataSnapshot snapshot) {
                     if(snapshot.hasChild(email)){
                         String saved_pass = snapshot.child(email).child("password").getValue().toString();
-                        if (saved_pass == password){
+                        if (saved_pass.equals(password)){
                             SharedPreferences.Editor editor=  sharedPreferences.edit();
                             editor.clear();
                             editor.putString("usrename", email);
                             editor.commit();
                             progressDialog.dismiss();
                             sendUserToNextActicity("0");
+                        }
+
+                    }
+                    else{
+                        progressDialog.dismiss();
+                        Snackbar.make(view, "Invalid Username for admins", Snackbar.LENGTH_LONG).show();
+                    }
+                }
+
+                @Override
+                public void onCancelled(@NonNull DatabaseError error) {
+
+                }
+            });
+            FirebaseDatabase.getInstance().getReference().child("ocs").addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(@NonNull DataSnapshot snapshot) {
+                    if(snapshot.hasChild(email)){
+                        String saved_pass = snapshot.child(email).child("password").getValue().toString();
+                        if (saved_pass.equals(password)){
+                            SharedPreferences.Editor editor=  sharedPreferences.edit();
+                            editor.clear();
+                            editor.putString("usrename", email);
+                            editor.commit();
+                            progressDialog.dismiss();
+                            sendUserToNextActicity("2");
                         }
 
                     }

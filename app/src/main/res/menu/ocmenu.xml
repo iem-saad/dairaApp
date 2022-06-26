@@ -18,9 +18,9 @@
             android:icon="@drawable/setvenue"
             />
         <item
-            android:id="@+id/nav_sendupdate"
-            android:title="New message"
-            android:icon="@drawable/newmsg"
+            android:id="@+id/nav_setnews"
+            android:title="Update News"
+            android:icon="@drawable/nav_news"
             />
         <item
             android:id="@+id/nav_setscoreboard"

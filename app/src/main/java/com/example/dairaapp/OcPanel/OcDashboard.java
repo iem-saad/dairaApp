@@ -1,5 +1,6 @@
 package com.example.dairaapp.OcPanel;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -10,7 +11,10 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.example.dairaapp.MentorPanel.DIsplayMRegistrationsMainActivity;
+import com.example.dairaapp.MentorPanel.SubEventMainActivity;
 import com.example.dairaapp.R;
+import com.example.dairaapp.SplashActivity;
 import com.google.android.material.navigation.NavigationView;
 
 public class OcDashboard extends AppCompatActivity {
@@ -45,20 +49,39 @@ public class OcDashboard extends AppCompatActivity {
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.nav_mentormsg:
+                Intent intent1 = new Intent(this, DisplayMentorMessageMainActivity.class);
+                startActivity(intent1);
                 break;
             case R.id.nav_viewregparticpant:
+                Intent intent5 = new Intent(this, DIsplayMRegistrationsMainActivity.class);
+                startActivity(intent5);
                 break;
             case R.id.nav_setvenue:
+                Intent intent2 = new Intent(this, AllocateSbEventVenueMainActivity.class);
+                startActivity(intent2);
                 break;
             case R.id.nav_sendupdate:
                 break;
             case R.id.nav_setscoreboard:
-                break;
-            case R.id.nav_login:
+                Intent intent4 = new Intent(this, AddScoreBoardActivity.class);
+                startActivity(intent4);
                 break;
             case R.id.nav_profile:
                 break;
+            case R.id.nav_setnews:
+                Intent intent3 = new Intent(this, AddNewsMainActivity.class);
+                startActivity(intent3);
+                break;
+            case R.id.nav_eventreg:
+                Intent intent = new Intent(this, SubEventMainActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.nav_login:
+                break;
             case R.id.nav_logout:
+                Intent i = new Intent(OcDashboard.this, SplashActivity.class);
+                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                startActivity(i);
                 break;
         }
         return true;

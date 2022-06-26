@@ -17,6 +17,16 @@
             android:title="Event News"
             android:icon="@drawable/news"
             />
+        <item
+            android:id="@+id/nav_event_register"
+            android:title="Register Event"
+            android:icon="@drawable/ic_person"
+            />
+        <item
+            android:id="@+id/nav_show_p_regs"
+            android:title="Show Registerations"
+            android:icon="@drawable/viewreg"
+            />
 
     </group>
 
