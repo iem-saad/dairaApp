@@ -9,6 +9,7 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.dairaapp.CurrentUser;
 import com.example.dairaapp.R;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -70,6 +71,9 @@ public class RegisterOCMainActivity extends AppCompatActivity {
             map.put("password", password);
             map.put("username", username);
             map.put("role", "1");
+            CurrentUser currentUser = CurrentUser.getInstance();
+//        map.put("mentor_id", currentUser.getUserName(this));
+            map.put("mentor_id", "0eadb2f221");
 
             FirebaseDatabase.getInstance().getReference().child("ocs").child(username).setValue(map).
                     addOnSuccessListener(new OnSuccessListener<Void>() {

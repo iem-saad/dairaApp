@@ -73,4 +73,7 @@
     <string name="register_event">Register Event</string>
     <string name="register">Register</string>
     <string name="your_registrations">Your Registrations</string>
+    <string name="mentor_message">Mentor Message</string>
+    <string name="please_enter_mentor_message_here">Please Enter Mentor Message Here</string>
+    <string name="mentor_message_will_appear_here">Mentor Message will appear here.</string>
 </resources>
