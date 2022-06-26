@@ -22,7 +22,6 @@ public class AdminDashboard extends AppCompatActivity implements NavigationView.
     NavigationView navigationView;
     Toolbar toolbar;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
